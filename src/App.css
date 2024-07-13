@@ -1,5 +1,16 @@
-.main-page{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding is included in width and height calculations */
+}
+
+.main-page {
   width: 100vw;
   height: 100vh;
   background-color: rgb(24, 23, 23);
+  padding: 42px 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 19px;
 }

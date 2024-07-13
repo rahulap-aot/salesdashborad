@@ -1,0 +1,92 @@
+.main-side-bar, .main-side-bar2 {
+  width: 88px;
+  height: 100%;
+  background-color: black;
+  border-radius: 8px;
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main-side-bar2 {
+  width: 132px;
+  padding-left: 16px;
+  padding: 25px 0px;
+}
+
+.main-side-image {
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image, .image2 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image2 {
+  width: 116px;
+  height: 36px;
+  justify-content: unset;
+}
+
+img {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  transition: all ease-in-out 0.5s;
+}
+
+.image2 img {
+  margin: 10px;
+}
+
+.image:hover img, .image2:hover img {
+  width: 20px;
+  height: 20px;
+}
+
+.span-color, .span-color2 {
+  width: 38px;
+  height: 11px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.span-color2 {
+  width: 116px;
+  padding-left: 15px;
+  justify-content: start;
+  gap: 3px;
+}
+
+.span1, .span2, .span3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.span1 {
+  background-color: red;
+}
+
+.span2 {
+  background-color: yellow;
+}
+
+.span3 {
+  background-color: green;
+}
+
+p {
+  color: white;
+}
