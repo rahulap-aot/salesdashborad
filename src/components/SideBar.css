@@ -25,34 +25,48 @@
   justify-content: space-around;
 }
 
-.image, .image2 {
+.image1, .image2 {
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all ease-in-out 0.5s;
 }
 
 .image2 {
   width: 116px;
   height: 36px;
   justify-content: unset;
+  border-radius: 8px;
 }
 
-img {
+.image2:hover {
+  background-color: #142315;
+}
+
+.image2:hover ~ .image1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.image1 img {
   width: 14px;
   height: 14px;
-  object-fit: cover;
-  transition: all ease-in-out 0.5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .image2 img {
-  margin: 10px;
+  margin: 10px 10px 10px 5px;
 }
 
-.image:hover img, .image2:hover img {
+.image1:hover img {
   width: 20px;
   height: 20px;
+}
+
+.image1:hover + .image2 {
+  background-color: #1e1e1e; 
 }
 
 .span-color, .span-color2 {

@@ -4,7 +4,7 @@ import './SideBar.css';
 const SideBarImg = ({ image, alt, text, prove, isHovered, onHover, onHoverOut }) => {
   return (
     <div
-      className={prove ? 'image2' : 'image'}
+      className={prove ? 'image2' : 'image1'}
       onMouseEnter={onHover}
       onMouseLeave={onHoverOut}
       style={isHovered ? { transform: 'scale(1.1)' } : {}}
